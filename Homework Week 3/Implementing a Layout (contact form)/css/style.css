@@ -1,0 +1,34 @@
+
+html, body {
+  background: pink;
+  font-family: 'Merriweather', sans-serif;
+  padding: 5em;
+}
+
+h1 {
+   text-align: center;
+   color: goldenrod;
+   
+}
+
+form {
+   max-width: 600px;
+   text-align: center;
+   margin: 50px auto;
+
+}
+
+
+.half {
+  float: left;
+  width: 45%;
+  margin-bottom: 1em;
+}
+
+.right { width: 50%; }
+
+.left {
+     margin-right: 5%; 
+}
+
+
