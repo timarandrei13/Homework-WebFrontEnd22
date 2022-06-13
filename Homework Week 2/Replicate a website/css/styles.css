@@ -1,0 +1,120 @@
+.images {
+    margin-left: 150px;
+    margin-top: 45px;
+    display:block;
+    white-space: nowrap;
+
+}
+
+#img1 {
+    aspect-ratio: 1/1;
+}
+
+#img2 {
+    aspect-ratio: 1/1;
+    margin-left: 46px;
+}
+
+#img3 {
+    aspect-ratio: 1/1;
+    margin-left: 42px;
+}
+
+
+.titleItem {
+    white-space: nowrap;
+    display: flex;
+    font-size: 40px;
+    padding-top: 15px;
+    height: 90px;
+}
+
+#item1 {
+    font-family: Muli;
+    white-space: nowrap;
+    width: 250px;
+    margin-left: 345px;
+}
+
+#item2 {
+    font-family: Muli;
+    white-space: nowrap;
+    width: 250px;
+    margin-left: 510px;
+}
+
+#item3 {
+    font-family: Muli;
+    white-space: nowrap;
+    width: 250px;
+    margin-left: 510px;
+
+}
+
+.description {
+    margin-left: 250px;
+    width: 2000px;
+    height: 500px;
+    white-space: nowrap;
+    display: flex;
+}
+
+.description1 {
+    width: 570px;
+    height: 500px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.description2 {
+    width: 560px;
+    height: 500px;
+    white-space: nowrap;
+    text-align: center;
+    margin-left: 270px;
+}
+
+.description3 {
+    width: 560px;
+    height: 500px;
+    white-space: nowrap;
+    text-align: center;
+    margin-left: 290px;
+}
+
+.reviews {
+    font-family: Muli;
+    font-size: 28px;
+    color: gray;
+}
+
+.comm {
+    font-family: Muli;
+    margin-top: 40px;
+    color: gray;
+    font-size: 30px;
+}
+
+#cart {
+    margin-top: 15px;
+    width: 150px;
+    height: 65px;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#view {
+    margin-top: 17px;
+    width: 150px;
+    height: 65px;
+    margin-left: 14px;
+    background-color: white;
+    border-width: 4px;
+    border-color: black;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}

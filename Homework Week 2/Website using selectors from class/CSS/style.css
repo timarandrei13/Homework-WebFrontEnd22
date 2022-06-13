@@ -1,0 +1,77 @@
+#container {
+    margin: auto;
+    max-width: 500px;
+}
+
+#container div > p > a:hover {
+    color: brown;
+    font-size: 30px;
+}
+
+.container img {
+    margin-top: 0px;
+    margin-left: -700px;
+}
+
+.header {
+    background: black;
+    text-align: left;
+    color: white;
+    font-size: 50px;
+    font-weight: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+}
+
+.header img {
+    margin-top: -170px;
+    margin-left: 400px;
+}
+
+.navbar {
+    background-color: black;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    padding: 40px;
+    font-size: 20px;
+}
+
+#content p + a::first-letter {
+    font-size: 20px;
+    color:brown;
+}
+
+ol {
+    padding: 20px;
+    border: 10px solid darkgray;
+    list-style-type: square;
+    font-size: 20px;
+}
+
+.formular {
+    text-align: left;
+    font-size: 20px;
+    background-color:darkgray;
+    padding: 20px;
+    font-style: italic;
+}
+
+.formular > div > area:first-of-type {
+    padding:65px;
+}
+
+.formular > div > label:first-of-type {
+    font-weight: bold;
+    padding: 0px;
+}
+
+.footer {
+    background: black;
+    color: white;
+    padding: 70px;
+    font-size: 20px;
+    text-align: right;
+}
