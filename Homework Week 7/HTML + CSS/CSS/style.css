@@ -1,0 +1,57 @@
+.content {
+    margin: auto;
+    max-width: 500px;
+}
+
+.header {
+    background: turquoise;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Arial";
+    padding: 20px;
+}
+
+.navbar {
+    background: #333;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+ul, ol {
+    border: 5px solid lightgray;
+    list-style-type: square;
+    padding: 0;
+}
+
+.borders {
+    border-bottom: 3px solid lightgray;
+    border-top: 3px solid lightgray;
+}
+
+.formular {
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.formular > div {
+    padding: 10px;
+}
+
+.formular > div > label:first-of-type {
+    font-weight: bold;
+}
+
+.footer {
+    background: whitesmoke;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+    text-align: right;
+}
